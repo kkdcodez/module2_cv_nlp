@@ -1,0 +1,29 @@
+{
+  "description": "Approximate single-object bounding boxes manually estimated from skimage sample photos; educational, not ground-truth benchmark annotations.",
+  "images": {
+    "coffee.jpg": {
+      "target_class": "cup",
+      "boxes_xyxy": [
+        [
+          170,
+          15,
+          425,
+          315
+        ]
+      ],
+      "note": "Coffee mug only; excludes plate/spoon. Approximate coordinates."
+    },
+    "chelsea.jpg": {
+      "target_class": "cat",
+      "boxes_xyxy": [
+        [
+          0,
+          0,
+          450,
+          299
+        ]
+      ],
+      "note": "Cat close-up occupies most of the photo. Approximate coordinates."
+    }
+  }
+}

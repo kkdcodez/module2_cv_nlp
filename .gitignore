@@ -1,0 +1,35 @@
+
+# Python 가상환경
+.venv/
+venv/
+env/
+
+# Python 캐시 및 임시 파일
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook 임시 파일
+.ipynb_checkpoints/
+
+# 대용량 데이터셋 및 실행 결과
+data/
+outputs/
+runs/
+checkpoints/
+
+# 운영체제 및 IDE 설정
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 개인 환경 설정 및 비밀 정보
+.env
+.env.*
+
+# 사전학습 모델 가중치
+weights/
