@@ -30,6 +30,3 @@ Thumbs.db
 # 개인 환경 설정 및 비밀 정보
 .env
 .env.*
-
-# 사전학습 모델 가중치
-weights/
